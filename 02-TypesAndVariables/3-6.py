@@ -11,3 +11,11 @@
 #You are looking out of a hotel window located by the sea, the window is at a height of 20 meters.
 
 import math
+h = input("Print your height: ")
+h = int(h)
+d = 3.57 * math.sqrt(h)
+print(f"1st answer: {d}")
+h1 = 185
+d1 = 3.57 * math.sqrt(h1)
+print(f"2nd answer {d1}")
+
