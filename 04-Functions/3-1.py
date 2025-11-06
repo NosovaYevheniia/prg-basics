@@ -9,3 +9,10 @@ import math
 
 square_root = math.sqrt(7)
 print('A square root of 7 is', square_root)
+
+logarithm = math.log1p(5)
+print("The natural logarithm of 5 is", logarithm)
+
+sine = math.sin(90)
+print("The sine of 90 degrees is", sine)
+
