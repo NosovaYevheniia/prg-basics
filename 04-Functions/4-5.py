@@ -13,7 +13,7 @@ def pts_to_grade(points):
         grade = "Good"
     elif points >= 10:
         grade = "Satisfactory"
-    elif points <= 10:
+    elif points < 10:
         grade = "Fail"
     return grade
 
