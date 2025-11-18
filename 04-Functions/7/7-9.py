@@ -6,20 +6,19 @@
 # f(20576,True) returns 8
 # f(13115,True) returns 0
 
-def f(number: int, even:bool) -> int:
-    result = 0
+def f(number: int, even: bool) -> int:
     s = str(number)
+    sum = 0
     for i in s:
-        if even is True:
-            if int(i) % 2 == 0:
-                result = result + int(i)
-        elif even is False:
-            if int(i) % 2 != 0:
-                result = result + int(i)
-    return result
+        if even == True and int(i)%2 == 0:
+            sum = sum + int(i)
+        elif even == False and int(i)%2 != 0:
+            sum = sum + int(i)
+    return sum
 
-print(f(3124,True))
-print(f(3124,False))
-print(f(20576,False))
-print(f(20576,True))
-print(f(13115,True))
+if __name__ == "__main__":
+    print(f(3124,True))
+    print(f(3124,False))
+    print(f(20576,False))
+    print(f(20576,True))
+    print(f(13115,True))

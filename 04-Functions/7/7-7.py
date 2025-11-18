@@ -3,11 +3,12 @@
 # f("101101") returns True
 # f("1311a10100") returns False
 
-def f(binary_number):
+def  f(binary_number: str) -> bool:
     for i in binary_number:
         if i not in ("0", "1"):
             return False
     return True
-        
-print(f("101101"))
-print(f("1311a10100"))
+
+if __name__ == '__main__':
+    print(f("101101"))
+    print(f("1311a10100"))

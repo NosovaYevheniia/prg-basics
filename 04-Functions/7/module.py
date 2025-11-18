@@ -3,3 +3,8 @@
 # You never get a second chance to make a first impression
 # The number of letter 'e': 7
 
+def f(sentence: str, letter: str) -> int:
+    return sentence.count(letter)
+
+
+
