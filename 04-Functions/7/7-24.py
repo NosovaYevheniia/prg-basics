@@ -5,4 +5,7 @@
 # f("2+3-4+5-0") returns 6
 
 def f(expression: str) -> int:
-    
+    return eval(expression)
+
+if __name__ == "__main__":
+    print(f("2+3"))
