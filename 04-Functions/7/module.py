@@ -5,6 +5,3 @@
 
 def f(sentence: str, letter: str) -> int:
     return sentence.count(letter)
-
-
-

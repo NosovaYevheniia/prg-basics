@@ -4,13 +4,12 @@
 # f(513553007) returns 21
 
 def f(number: int) -> int:
-    count = 0
+    sum = 0
     s = str(number)
     for i in s:
         if s.count(i) > 1:
-            count += int(i)
-        
-    return count
+            sum += int(i)        
+    return sum 
 
 print(f(1027))
 print(f(230335))
