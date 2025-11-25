@@ -3,7 +3,7 @@
 #1, 4, 7
 #
 def weekday(n):
-    weekdays = ["Monday", "Tuesday", "Wednesday",
+    weekday = ["Monday", "Tuesday", "Wednesday",
          "Thursday", "Friday", "Saturday", "Sunday"]
     return weekday[n - 1]
 
