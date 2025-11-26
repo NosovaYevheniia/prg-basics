@@ -7,6 +7,7 @@ def weekday(n):
          "Thursday", "Friday", "Saturday", "Sunday"]
     return weekday[n - 1]
 
-print(weekday(1))
+x = weekday(1)
+print(x)
 print(weekday(4))
 print(weekday(7))

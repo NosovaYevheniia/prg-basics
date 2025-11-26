@@ -9,13 +9,17 @@ computer_games = [
    "Elden Ring", "Apex Legends", "Call of Duty: Warzone"
 ]
 
+def printGames(computer_games:list):
+   lenght = len(computer_games)
+   i = 0
+   number = 1
+   while (lenght > 0):
+      print(number,computer_games[i])
+      lenght -= 1
+      i += 1
+      number += 1
+  
+
+printGames(computer_games)
+computer_games.sort()
 print(computer_games)
-
-i = 0
-while i < len(computer_games):
-    print(computer_games[i])
-    i = i + 1
-
-
-
-
