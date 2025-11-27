@@ -15,11 +15,11 @@ seven_wonders = [
 file_name = 'seven_wonders.txt'
 
 # Sort data alphabetically
-sorted_data = sorted(file_name)
+sorted_data = sorted(seven_wonders)
 
 # Write data to the file
 with open(file_name, 'w') as file:
-    for item in file:
-        file.write(f"The World Wander: {seven_wonders}")
+    for item in sorted_data:
+        file.write(item + "\n")
 
-print("The seven wonders of the world")
+print(f"The seven wonders of the world displayed in {file_name}")
