@@ -9,6 +9,8 @@
 
 arr = [2, 3, 7, 5, 4]
 
+
+
 print(arr)
 print('Number of elements', len(arr))
 print('First value', arr[0])
