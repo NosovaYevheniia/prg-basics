@@ -1,10 +1,10 @@
 arr = [15, 8, 31, 47, 2, 19]
 
 sum = 0
-count = len(arr)
+amount = len(arr)
 for i in arr:
     sum += i
-arithmetic_mean = sum / count
+arithmetic_mean = sum/amount
 
-print(arr)
 print(arithmetic_mean)
+print(arr)
