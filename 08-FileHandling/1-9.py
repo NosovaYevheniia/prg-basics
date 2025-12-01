@@ -12,3 +12,7 @@ with open(file_name) as file:
    for line in file:
       if job_title in line:
          print(line)
+
+str = " anna" 
+x = str.lstrip()
+print(len(x))      

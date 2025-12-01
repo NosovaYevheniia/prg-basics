@@ -23,3 +23,4 @@ with open(file_name, 'w') as file:
         file.write(item + "\n")
 
 print(f"The seven wonders of the world displayed in {file_name}")
+
