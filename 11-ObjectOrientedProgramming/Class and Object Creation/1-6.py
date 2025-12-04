@@ -4,7 +4,9 @@ class Phone():
         self.model = model
         self.system = system
     
-    def behaviors(self, turnedon, turnedoff, charged):
-        self.on = turnedon
-        self.off = turnedoff
+    def behaviors(self, turneon, turneoff, charged):
+        self.on = turneon
+        self.off = turneoff
         self.charge = charged
+
+    
