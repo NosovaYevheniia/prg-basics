@@ -21,3 +21,6 @@ phone_book = {
    'Sam': '555-3030'
 }
 
+for key, value in phone_book.items():
+   if key.startswith("D"):
+      print(f"{key}:{value}")
