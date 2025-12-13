@@ -7,22 +7,22 @@ import re # module for regular expressions
 email_file = 'report.txt'
 
 # read the content of email
-with open(email_file):
-    for emails in email_file:
-        email = email_file(email content)
+with open(email_file, "r", encoding="utf-8") as file:
+    email = file.read()
 
 # regular expression pattern
 # for amounts
-pattern = '....'
+pattern = '€(\d+)'
 
 # extract numbers from email
 # tip: findall() method returns an array
 amounts = re.findall(pattern, email)
+print(amounts)
 
 # calculate the total purchases
-length = len(amounts)
+total = 0.0
 for amount in amounts:
-   ...
+    total += float(amount)
 
 # print result
-print(...)
+print(f"The total amount of money spent is: {total}")
