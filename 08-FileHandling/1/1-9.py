@@ -15,4 +15,4 @@ with open(file_name) as file:
 
 str = " anna" 
 x = str.lstrip()
-print(len(x))      
+print(len(x))
