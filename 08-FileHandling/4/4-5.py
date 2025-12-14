@@ -17,4 +17,5 @@ file_name = "email.txt"
 with open(file_name, "r") as file:
     content = file.read()
 
+print("Sender email adress: ", email_sender(content))
 
