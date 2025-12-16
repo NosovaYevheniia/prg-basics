@@ -1,7 +1,14 @@
-import json
+import queue
 
-with open("voting.json", "r", encoding="utf-8") as file:
-    content = json.load(file)
+stack = queue.LifoQueue()
 
-for key,value in content.items():
-    print(f"{key}:{value}")
+stack.put(1)
+stack.put(2)
+stack.put(3)
+stack.put(4)
+
+count = 0
+while not stack.empty():
+    x = stack.get()
+    count += x
+    print(count)

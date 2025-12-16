@@ -17,6 +17,7 @@ cards.put('King of Hearts \u2665')
 cards.put('Queen of Diamonds \u2666')  
 cards.put('Jack of Spades \u2660')     
 
+
 ## prints number of elements of the stack
 print('Number of stack elements:', cards.qsize())
 
