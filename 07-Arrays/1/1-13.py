@@ -10,14 +10,11 @@ product_quantities = [5, 20, 10, 15, 7, 12, 25, 18, 9, 4]
 
 sum = 0
 for i in product_quantities:
-    print("i: ", i)
     product_quantities_index = product_quantities.index(i)
     print("product_quantities_index:",product_quantities_index)
     product_prices_value = product_prices[product_quantities_index]
     print("product_prices_value: ", product_prices_value)
     multiply = product_prices_value * i
     sum += multiply
-    print("----------------")
 
 print("The total value of the products is", sum)
-0

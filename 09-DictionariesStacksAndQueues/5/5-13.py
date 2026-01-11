@@ -1,8 +1,7 @@
 import queue
 
-def calculate(expression:str) -> int: #241+*
-    # splitted_string = expression.split()
-    # print(splitted_string)
+def calculate(expression:str) -> int:
+    splitted_string = expression.split()
     stack = queue.LifoQueue()
     for item in expression:
         if item.isdigit():
@@ -16,4 +15,4 @@ def calculate(expression:str) -> int: #241+*
                 stack.put(a * b)
     return stack.get()
 if __name__ == "__main__":
-    print(calculate("241+*"))
+    print(calculate("2 4 1 + *"))

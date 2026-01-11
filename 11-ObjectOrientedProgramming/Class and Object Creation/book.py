@@ -32,7 +32,7 @@ def main():
     # object creation based on the Book class
     favourite_book = Book(
         "Harry Potter and the Philosopher's Stone",
-        "J. K. Rowling", 223, 48)
+        "J. K. Rowling", 223, 45)
 
     # object manipulation
     favourite_book.open()
